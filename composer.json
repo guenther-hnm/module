@@ -1,0 +1,14 @@
+{
+	"name": "asdf/n2n-module-test",
+	"type": "n2n-module",
+	"require": {
+		"monolog/monolog": "*",
+		"asdf/module-installer": "dev-master"
+	}, 
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/guenther-hnm/module-installer"
+		}
+	]
+}
